@@ -1,0 +1,84 @@
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.background-search{
+    background-image: url(../../recursos/Beach-Banner.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 200px;
+    background-size: 100% 100%;
+}
+
+.form-search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    padding: 0;
+    padding-top: 10px;
+    background: unset;
+}
+
+
+
+.form-search input[type=text], input[type=password]{width:-webkit-fill-available;}
+
+.row{
+    margin:0px !important;
+    padding:0px !important;
+}
+
+.banner-text{
+    color: white;
+    font-size: 35px;
+    align-self: start;
+    margin-bottom: 50px;
+    font-weight: 100;
+    letter-spacing: 6.2px;
+    text-transform: uppercase;
+}
+.hotel-title{
+    font-size: 20px;  font-weight: 700;
+}
+
+.hotel-desc{
+    font-size: 15px;
+}
+.hotel-card{
+    width: 100%;
+    color: #221f1f;
+}
+
+.hotel-type {
+    text-transform: capitalize;
+}
+
+.hotel-rating {
+    text-transform: capitalize;
+}
+
+.regular-padding{
+    padding: 15px;
+}

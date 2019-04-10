@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+input{
+    border: solid 0;
+    border-radius: 3px;
+}
+
+input[type=text], input[type=password]{
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.opcion{
+    padding: 5px 0;
+}
+
+.barra{
+    background-color:rgb(152, 196, 236);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.seleccionado{
+    background-color: rgb(33, 90, 143);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+}
+
+#menu{
+    background-color: #fff;
+    padding: 15px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: #1E69E3;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: rgb(227, 109, 30);
+    text-decoration: none;
+}
+.log-out{
+    float: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.display-flex-center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.display-flex-between{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.button-search{
+    background-color: #2ac9cc;
+    border-color: #2ac9cc;
+    box-shadow: 1px 2px 4px rgba(106,121,146,.2);
+    margin-right: 15px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+.img-login{
+    background: url(recursos/maldivas.jpg) center/cover;
+    height: 100vh;
+    box-shadow: 0 10px 15px rgba(0,0,0,.4);
+    width: 100%;
+
+}
+
+.error-panel{
+    padding: 20px 15px;
+    margin: 10px 0;
+}
